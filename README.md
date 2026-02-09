@@ -52,4 +52,5 @@ Assignment: Secure Task Manager (MERN API Security with JWT) ,Objective: Enhance
 * **Registration**: You create an account; bcryptjs scrambles your password so it’s stored safely in MongoDB.
 * **Login**: The server checks your credentials; if they are correct, it gives you a JWT "digital ID card".
 * **Access**: For every request, you send this "ID card" in the Authorization Header as a Bearer Token.
-* **Verification**: The authmw.js middleware checks the card; if valid, it identifies you and shows only the tasks you own.
+* **Verification**: The authmw.js middleware checks the card; if valid, it identifies you and shows only the tasks you own
+
